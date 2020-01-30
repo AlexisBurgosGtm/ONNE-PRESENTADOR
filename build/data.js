@@ -1,0 +1,25 @@
+let data = [
+    {IMG:'data/Diapositiva1.png',TITULO:'Bienvenida',MINIATURA:'data/Diapositiva1.png'},
+    {IMG:'data/Diapositiva2.png',TITULO:'Bienvenida',MINIATURA:'data/Diapositiva2.png'},
+    {IMG:'data/Diapositiva3.png',TITULO:'Bienvenida',MINIATURA:'data/Diapositiva3.png'},
+    {IMG:'data/Diapositiva4.png',TITULO:'Bienvenida',MINIATURA:'data/Diapositiva4.png'},
+    {IMG:'data/Diapositiva5.png',TITULO:'Bienvenida',MINIATURA:'data/Diapositiva5.png'},
+    {IMG:'data/Diapositiva6.png',TITULO:'Bienvenida',MINIATURA:'data/Diapositiva6.png'},
+    {IMG:'data/Diapositiva7.png',TITULO:'Bienvenida',MINIATURA:'data/Diapositiva7.png'},
+    {IMG:'data/Diapositiva8.png',TITULO:'Bienvenida',MINIATURA:'data/Diapositiva8.png'},
+    {IMG:'data/Diapositiva9.png',TITULO:'Bienvenida',MINIATURA:'data/Diapositiva9.png'},
+    {IMG:'data/Diapositiva10.png',TITULO:'Bienvenida',MINIATURA:'data/Diapositiva10.png'},
+    {IMG:'data/Diapositiva11.png',TITULO:'Bienvenida',MINIATURA:'data/Diapositiva11.png'},
+    {IMG:'data/Diapositiva12.png',TITULO:'Bienvenida',MINIATURA:'data/Diapositiva12.png'},
+    {IMG:'data/Diapositiva13.png',TITULO:'Bienvenida',MINIATURA:'data/Diapositiva13.png'},
+    {IMG:'data/Diapositiva14.png',TITULO:'Bienvenida',MINIATURA:'data/Diapositiva14.png'},
+    {IMG:'data/Diapositiva15.png',TITULO:'Bienvenida',MINIATURA:'data/Diapositiva15.png'},
+    {IMG:'data/Diapositiva16.png',TITULO:'Bienvenida',MINIATURA:'data/Diapositiva16.png'},
+    {IMG:'data/Diapositiva17.png',TITULO:'Bienvenida',MINIATURA:'data/Diapositiva17.png'},
+    {IMG:'data/Diapositiva18.png',TITULO:'Bienvenida',MINIATURA:'data/Diapositiva18.png'},
+    {IMG:'data/Diapositiva19.png',TITULO:'Bienvenida',MINIATURA:'data/Diapositiva19.png'},
+    {IMG:'data/Diapositiva20.png',TITULO:'Bienvenida',MINIATURA:'data/Diapositiva20.png'},
+    {IMG:'data/Diapositiva21.png',TITULO:'Bienvenida',MINIATURA:'data/Diapositiva21.png'},
+    {IMG:'data/Diapositiva22.png',TITULO:'Bienvenida',MINIATURA:'data/Diapositiva22.png'}
+
+];
