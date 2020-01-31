@@ -12,6 +12,7 @@ socket.on('next', function(msg,form){
   
   try {
     document.getElementById('btnNextSlide').click();
+
   } catch (error) {
     console.log('Next: ' + error);
   }
@@ -34,6 +35,7 @@ socket.on('zout', function(msg,form){
   console.log('zoom out')
   try {
     $('#lg-zoom-out').click();
+    
     //document.getElementById('lg-zoom-out').click();
   } catch (error) {
     console.log('z out: ' +  error);

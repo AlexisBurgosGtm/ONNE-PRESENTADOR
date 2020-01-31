@@ -2788,7 +2788,7 @@
     'use strict';
 
     var defaults = {
-        autoplay: true,
+        autoplay: false,
         pause: 5000,
         progressBar: true,
         fourceAutoplay: false,

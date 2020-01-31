@@ -1,5 +1,7 @@
 ﻿var socket = io();
 var $initScope = $('#js-lightgallery');
+const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
 
 function InicializarServiceWorkerNotif(){
   if ('serviceWorker' in navigator) {
@@ -60,7 +62,7 @@ function initGallery(){
                     $('body').removeClass("overflow-hidden");
                 });
                 
-                //$initScope.Autoplay(false);
+                $initScope.stop();
 };
 
 // Gestión del Control Remoto
@@ -117,28 +119,34 @@ function addListenersContol(){
   let btnPrev = document.getElementById('btnPrev');
   btnPrev.addEventListener('click',()=>{
     socket.emit('prev','msn','user');
+    try {navigator.vibrate(100);} catch (error) {};
   });
   let btnNext = document.getElementById('btnNext');
   btnNext.addEventListener('click',()=>{
     socket.emit('next','msn','user');
+    try {navigator.vibrate(100);} catch (error) {};
   });
 
   let btnzIn = document.getElementById('btnzIn');
   btnzIn.addEventListener('click',()=>{
     socket.emit('zin','msn','user');
+    try {navigator.vibrate(100);} catch (error) {};
   });
   let btnzOut = document.getElementById('btnzOut');
   btnzOut.addEventListener('click',()=>{
     socket.emit('zout','msn','user');
+    try {navigator.vibrate(100);} catch (error) {};
   });
 
   let btnHablarTitulo = document.getElementById('btnHablarTitulo');
   btnHablarTitulo.addEventListener('click',()=>{
     socket.emit('hablartitulo','msn','user');
+    try {navigator.vibrate(100);} catch (error) {};
   });
   
 
 };
+
 
 // CONTROLES
 function setState(view){
@@ -160,8 +168,12 @@ function setState(view){
   }
 };
 
+// compara si estamos en un teléfono android para mostrar otra cosa
+if(/android/i.test(userAgent)){
+  setState('CONTROLS');
+}else{
+  setState('GALLERY');
+};
 
-setState('GALLERY');
-setState('CONTROLS');
 
 

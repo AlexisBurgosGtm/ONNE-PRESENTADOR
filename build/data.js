@@ -20,6 +20,25 @@ let data = [
     {IMG:'./data/Diapositiva19.png',TITULO:'Bienvenida',MINIATURA:'./data/Diapositiva19.png'},
     {IMG:'./data/Diapositiva20.png',TITULO:'Bienvenida',MINIATURA:'./data/Diapositiva20.png'},
     {IMG:'./data/Diapositiva21.png',TITULO:'Bienvenida',MINIATURA:'./data/Diapositiva21.png'},
-    {IMG:'./data/Diapositiva22.png',TITULO:'Bienvenida',MINIATURA:'./data/Diapositiva22.png'}
-
+    {IMG:'./data/Diapositiva22.png',TITULO:'Bienvenida',MINIATURA:'./data/Diapositiva22.png'},
+	{IMG:'./data/Diapositiva23.png',TITULO:'Bienvenida',MINIATURA:'./data/Diapositiva23.png'},
+	{IMG:'./data/Diapositiva24.png',TITULO:'Bienvenida',MINIATURA:'./data/Diapositiva24.png'},
+	{IMG:'./data/Diapositiva25.png',TITULO:'Bienvenida',MINIATURA:'./data/Diapositiva25.png'},
+	{IMG:'./data/Diapositiva26.png',TITULO:'Bienvenida',MINIATURA:'./data/Diapositiva26.png'},
+	{IMG:'./data/Diapositiva27.png',TITULO:'Bienvenida',MINIATURA:'./data/Diapositiva27.png'},
+	{IMG:'./data/Diapositiva28.png',TITULO:'Bienvenida',MINIATURA:'./data/Diapositiva28.png'},
+	{IMG:'./data/Diapositiva29.png',TITULO:'Bienvenida',MINIATURA:'./data/Diapositiva29.png'},
+	{IMG:'./data/Diapositiva30.png',TITULO:'Bienvenida',MINIATURA:'./data/Diapositiva30.png'},
+	{IMG:'./data/Diapositiva31.png',TITULO:'Bienvenida',MINIATURA:'./data/Diapositiva31.png'},
+	{IMG:'./data/Diapositiva32.png',TITULO:'Bienvenida',MINIATURA:'./data/Diapositiva32.png'},
+	{IMG:'./data/Diapositiva33.png',TITULO:'Bienvenida',MINIATURA:'./data/Diapositiva33.png'},
+	{IMG:'./data/Diapositiva34.png',TITULO:'Bienvenida',MINIATURA:'./data/Diapositiva34.png'},
+	{IMG:'./data/Diapositiva35.png',TITULO:'Bienvenida',MINIATURA:'./data/Diapositiva35.png'},
+	{IMG:'./data/Diapositiva36.png',TITULO:'Bienvenida',MINIATURA:'./data/Diapositiva36.png'},
+	{IMG:'./data/Diapositiva37.png',TITULO:'Bienvenida',MINIATURA:'./data/Diapositiva37.png'},
+	{IMG:'./data/Diapositiva38.png',TITULO:'Bienvenida',MINIATURA:'./data/Diapositiva38.png'},
+	{IMG:'./data/Diapositiva39.png',TITULO:'Bienvenida',MINIATURA:'./data/Diapositiva39.png'},
+	{IMG:'./data/Diapositiva40.png',TITULO:'Bienvenida',MINIATURA:'./data/Diapositiva40.png'},
+	{IMG:'./data/Diapositiva41.png',TITULO:'Bienvenida',MINIATURA:'./data/Diapositiva41.png'},
+	{IMG:'./data/Diapositiva42.png',TITULO:'Bienvenida',MINIATURA:'./data/Diapositiva42.png'}
 ];
